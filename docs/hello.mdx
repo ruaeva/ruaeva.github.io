@@ -1,0 +1,33 @@
+
+
+import {Card} from '@theme';
+import {Tab, Tabs} from 'rspress/theme';
+
+# 这是一个组件测试页
+
+
+## 卡片
+
+ <Card title="Card Title" content="Card Content" />
+
+## 代码块切换
+
+<Tabs>
+    <Tab label="Tab 1">
+
+        ```tsx title="src/index.mjs"
+        import foo from 'foo';
+        import bar from 'bar';
+        ```
+
+    </Tab>
+    <Tab label="Tab 2">
+
+        ```tsx title="src/index.cjs"
+        const foo = require('foo');
+        const bar = require('bar');
+        ```
+
+    </Tab>
+</Tabs>
+-

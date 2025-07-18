@@ -1,0 +1,16 @@
+[
+  {
+    "text": "归档",
+    "link": "/guide/",
+    "activeMatch": "/guide/"
+  },
+  {
+    "text": "测试",
+    "link": "/hello/",
+    "activeMatch": "/hello/"
+  },
+  {
+    "text": "item",
+    "link": ""
+  }
+]
